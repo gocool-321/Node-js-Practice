@@ -1,0 +1,35 @@
+NPM - CLI app comes with Node.js
+
+- Helps to install the 3rd party libraries from  the npm repositories.
+
+- Inorder to install any 3rd party libabries we need to follow this process:
+    - search for the particular 3rd party repo in npm
+    - Then on simple understand their nature of work in our application { dependency oriented to development or production }
+        - npm init { setup Repo }
+        - npm i ______ [ installs the Dep. for production level ]
+        - npm i ______ --save-dev [ for Development Dependency ]
+        - package JSON was created ...
+
+
+- installing packages Locally : npm i ____
+- installing packages globally : npm i -g ____
+
+
+- versioning of the Packages:
+    "nodemon" : "~x.y.z"
+        ~ - "exact versioning of updated package"
+        x - "major"
+        y - "Minor Bugs"
+        z - "Bug fixes"
+
+- checking for Outdated packages:
+    npm outdated
+
+- uninstalling packages: 
+    npm uninstall ______
+
+- updating the node packages:
+    npm update _____
+
+    
+        
